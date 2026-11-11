@@ -1,0 +1,7 @@
+# Code::Blocks build output
+bin/
+obj/
+*.depend
+*.layout
+# run output
+result.txt
