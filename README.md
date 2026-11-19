@@ -9,7 +9,7 @@
 | `truss.h` | 구조체(`Node`, `Member`, `Truss`, `Result`)와 함수 선언 |
 | `io.cpp` | `readTruss`, `writeResult` |
 | `main.cpp` | `truss.txt` 읽기 → `solve` → `result.txt` 쓰기 |
-| `solve.cpp` | `Result solve(const Truss&)` — 해석 본체 (작성 중, 아직 저장소에 없음) |
+| `solve.cpp` | `Result solve(const Truss&)` — 해석 본체 (직접강성법, 부분 피벗 가우스 소거) |
 | `truss.txt` | 검증용 입력: 기본 삼각형 (밑변 200 mm, 높이 100√2 mm, 꼭짓점 하중 10 N) |
 
 ## 빌드
