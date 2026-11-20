@@ -1,0 +1,56 @@
+# truss_model 설정 — "키 = 값", # 뒤는 주석. 지우거나 비워 두면 기본값을 쓴다.
+
+# ---- 재료·단면 (3절 실험의 PP 빨대) ----
+material = straw     # straw(PP 빨대, 실측) | steel | aluminum | douglas_fir | balsa | custom
+                     # custom 이 아니면 아래 E·rho·sigma_t·sigma_c 줄 대신 목록 값을 쓴다 (출처는 materials.cpp)
+E       = 1630      # 탄성계수 [MPa] (3절 실측)
+rho     = 0.905     # 밀도 [g/cm³] (INEOS 자료 0.904~0.908)
+sigma_t = 35.5      # 인장강도 [MPa] (Plastics International PP 단일중합체 자료 5,150 psi)
+sigma_c = 39.6      # 압축강도 [MPa] (같은 자료 5,750 psi)
+K       = 1         # 유효길이계수 (양단 핀)
+tube_d  = 5         # 빨대 외경 [mm]
+tube_t  = 0.1366    # 빨대 벽두께 [mm] (빨대 질량에서 계산)
+
+# ---- 다리 ----
+L = 600             # 스팬 [mm]
+H = 100             # 높이 [mm] (preset 기본값, GA 검증용 높이)
+n = 6               # 패널 수 (짝수: 하중이 하현 중앙 절점에 걸린다)
+P = 10              # 하중 [N] (η는 하중 크기와 무관)
+load = center       # center: 하현 중앙 1점 (3절 실험과 같은 조건), panel: 하현 안쪽 절점에 P/(n−1)씩
+
+# ---- 높이 스윕 (sweep) ----
+H_min = 30
+H_max = 300
+H_step = 5
+n_min = 4
+n_max = 20
+
+# ---- 제작 제약 (빨대 + 이쑤시개 핀) ----
+L_max = 180         # 부재 최대 길이 [mm] = 빨대 한 개
+L_min = 20          # 부재 최소 길이 [mm]
+min_angle = 15      # 한 절점에서 이웃한 두 부재 사이 최소 각 [°] (K-truss 끝 부분 18.4°가 들어가도록)
+max_deg = 6         # 한 핀에 꽂을 수 있는 부재 수
+no_cross = 1        # 1: 부재 교차 금지
+
+# ---- 유전 알고리즘 (ga) ----
+ga_H_min = 30       # 상현 절점 높이 범위 [mm]
+ga_H_max = 200
+ga_H_step = 5       # 높이 간격 [mm] (자로 맞출 수 있는 간격)
+pop   = 200         # 개체 수
+gens  = 1000        # 세대 수
+tour  = 3           # 토너먼트 크기
+elite = 2           # 그대로 넘기는 상위 개체 수
+runs  = 10          # 서로 다른 seed 로 반복할 횟수
+seed  = 1           # 첫 seed (재현용)
+pc    = 0.9         # 교차 확률
+pm    = 0.08        # 유전자당 돌연변이 확률 (-1 = 1 / 유전자 수)
+ls_every = 25       # 몇 세대마다 그 세대 최고 개체를 국소 탐색할지 (0 = 끔)
+restart = 150       # 이 세대 수 동안 최고값이 그대로면 엘리트만 남기고 다시 뿌림 (0 = 끔)
+slot_cross = 1      # 1: 슬롯 단위 교차 (절점과 그 부재를 한 부모에게서 통째로), 0: 유전자별 균등 교차
+soft_p = 8          # 선택용 점수의 p-노름 지수 (0 = 끔: 참 η 로만 고름)
+fitness = eta       # eta = P_fail/질량, etaUlt = P_ult/질량 (연쇄 파괴 끝 하중)
+
+# ---- E 회귀 (efit) ----
+beam_L  = 160       # 단순보 스팬 [mm] (실측)
+g       = 9.80665   # 중력가속도 [m/s²]
+rms_max = 3         # 판독 잔차가 이 값 [px] 보다 큰 사진은 제외

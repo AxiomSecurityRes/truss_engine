@@ -68,3 +68,7 @@ RESULT 1
 ```
 
 손계산과의 대응: 밑변 축력 $\frac{P}{2}\cot\theta = 5/\sqrt{2}$, 빗변 축력 $-\frac{P}{2\sin\theta}$, 밑각 $\theta = \arctan\sqrt{2}$.
+
+## truss_model (논문용 전체 코드)
+
+`truss_model/` 폴더에 이 엔진을 그대로 쓰는 논문용 프로그램이 있습니다: 대표 4종 생성, 높이 스윕, 하중 조건 비교, 연쇄 파괴, 제작 제약, 유전 알고리즘, 3절 E 회귀, 민감도, 재료별 비교, 논문용 요약. Windows에서는 `truss_model/run.bat`을 실행하면 됩니다. 자세한 내용은 `truss_model/README.md`.

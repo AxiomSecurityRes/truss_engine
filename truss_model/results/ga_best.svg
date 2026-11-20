@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="398.667" viewBox="0 0 1000 398.667" font-family="sans-serif"><rect width="100%" height="100%" fill="#fff"/>
+<text x="60" y="28" font-size="18" fill="#1b2328">GA 최적  n = 6, η = 6.056 N/g, 질량 4.957 g</text>
+<line x1="60" y1="308.667" x2="206.667" y2="308.667" stroke="#1f5fa8" stroke-width="5.31431" stroke-linecap="round"/>
+<text x="137.333" y="304.667" font-size="11" fill="#5b6870">m0</text>
+<line x1="206.667" y1="308.667" x2="353.333" y2="308.667" stroke="#1f5fa8" stroke-width="6.07717" stroke-linecap="round"/>
+<text x="284" y="304.667" font-size="11" fill="#5b6870">m1</text>
+<line x1="353.333" y1="308.667" x2="500" y2="308.667" stroke="#1f5fa8" stroke-width="6.70133" stroke-linecap="round"/>
+<text x="430.667" y="304.667" font-size="11" fill="#5b6870">m2</text>
+<line x1="500" y1="308.667" x2="646.667" y2="308.667" stroke="#1f5fa8" stroke-width="6.70133" stroke-linecap="round"/>
+<text x="577.333" y="304.667" font-size="11" fill="#5b6870">m3</text>
+<line x1="646.667" y1="308.667" x2="793.333" y2="308.667" stroke="#1f5fa8" stroke-width="6.07717" stroke-linecap="round"/>
+<text x="724" y="304.667" font-size="11" fill="#5b6870">m4</text>
+<line x1="793.333" y1="308.667" x2="940" y2="308.667" stroke="#1f5fa8" stroke-width="5.31431" stroke-linecap="round"/>
+<text x="870.667" y="304.667" font-size="11" fill="#5b6870">m5</text>
+<line x1="133.333" y1="264.667" x2="206.667" y2="228" stroke="#c0392b" stroke-width="6.15221" stroke-linecap="round"/>
+<text x="174" y="242.333" font-size="11" fill="#5b6870">m6</text>
+<line x1="206.667" y1="228" x2="280" y2="198.667" stroke="#c0392b" stroke-width="5.9816" stroke-linecap="round"/>
+<text x="247.333" y="209.333" font-size="11" fill="#5b6870">m7</text>
+<line x1="280" y1="198.667" x2="353.333" y2="169.333" stroke="#c0392b" stroke-width="6.68923" stroke-linecap="round"/>
+<text x="320.667" y="180" font-size="11" fill="#5b6870">m8</text>
+<line x1="353.333" y1="169.333" x2="426.667" y2="147.333" stroke="#c0392b" stroke-width="6.53022" stroke-linecap="round"/>
+<text x="394" y="154.333" font-size="11" fill="#5b6870">m9</text>
+<line x1="426.667" y1="147.333" x2="500" y2="140" stroke="#f2c14e" stroke-width="15.5" stroke-linecap="round"/>
+<line x1="426.667" y1="147.333" x2="500" y2="140" stroke="#c0392b" stroke-width="7.5" stroke-linecap="round"/>
+<text x="467.333" y="139.667" font-size="11" fill="#5b6870">m10</text>
+<line x1="500" y1="140" x2="573.333" y2="147.333" stroke="#c0392b" stroke-width="7.5" stroke-linecap="round"/>
+<text x="540.667" y="139.667" font-size="11" fill="#5b6870">m11</text>
+<line x1="573.333" y1="147.333" x2="646.667" y2="169.333" stroke="#c0392b" stroke-width="6.53022" stroke-linecap="round"/>
+<text x="614" y="154.333" font-size="11" fill="#5b6870">m12</text>
+<line x1="646.667" y1="169.333" x2="720" y2="198.667" stroke="#c0392b" stroke-width="6.68923" stroke-linecap="round"/>
+<text x="687.333" y="180" font-size="11" fill="#5b6870">m13</text>
+<line x1="720" y1="198.667" x2="793.333" y2="228" stroke="#c0392b" stroke-width="5.9816" stroke-linecap="round"/>
+<text x="760.667" y="209.333" font-size="11" fill="#5b6870">m14</text>
+<line x1="793.333" y1="228" x2="866.667" y2="264.667" stroke="#c0392b" stroke-width="6.15221" stroke-linecap="round"/>
+<text x="834" y="242.333" font-size="11" fill="#5b6870">m15</text>
+<line x1="60" y1="308.667" x2="133.333" y2="264.667" stroke="#c0392b" stroke-width="5.94821" stroke-linecap="round"/>
+<text x="100.667" y="282.667" font-size="11" fill="#5b6870">m16</text>
+<line x1="940" y1="308.667" x2="866.667" y2="264.667" stroke="#c0392b" stroke-width="5.94821" stroke-linecap="round"/>
+<text x="907.333" y="282.667" font-size="11" fill="#5b6870">m17</text>
+<line x1="206.667" y1="308.667" x2="133.333" y2="264.667" stroke="#1f5fa8" stroke-width="1.90438" stroke-linecap="round"/>
+<text x="174" y="282.667" font-size="11" fill="#5b6870">m18</text>
+<line x1="793.333" y1="308.667" x2="866.667" y2="264.667" stroke="#1f5fa8" stroke-width="1.90438" stroke-linecap="round"/>
+<text x="834" y="282.667" font-size="11" fill="#5b6870">m19</text>
+<line x1="206.667" y1="308.667" x2="206.667" y2="228" stroke="#1f5fa8" stroke-width="1.91611" stroke-linecap="round"/>
+<text x="210.667" y="264.333" font-size="11" fill="#5b6870">m20</text>
+<line x1="793.333" y1="308.667" x2="793.333" y2="228" stroke="#1f5fa8" stroke-width="1.91611" stroke-linecap="round"/>
+<text x="797.333" y="264.333" font-size="11" fill="#5b6870">m21</text>
+<line x1="206.667" y1="308.667" x2="280" y2="198.667" stroke="#c0392b" stroke-width="2.25015" stroke-linecap="round"/>
+<text x="247.333" y="249.667" font-size="11" fill="#5b6870">m22</text>
+<line x1="793.333" y1="308.667" x2="720" y2="198.667" stroke="#c0392b" stroke-width="2.25015" stroke-linecap="round"/>
+<text x="760.667" y="249.667" font-size="11" fill="#5b6870">m23</text>
+<line x1="353.333" y1="308.667" x2="280" y2="198.667" stroke="#1f5fa8" stroke-width="1.9343" stroke-linecap="round"/>
+<text x="320.667" y="249.667" font-size="11" fill="#5b6870">m24</text>
+<line x1="646.667" y1="308.667" x2="720" y2="198.667" stroke="#1f5fa8" stroke-width="1.9343" stroke-linecap="round"/>
+<text x="687.333" y="249.667" font-size="11" fill="#5b6870">m25</text>
+<line x1="353.333" y1="308.667" x2="353.333" y2="169.333" stroke="#1f5fa8" stroke-width="1.98181" stroke-linecap="round"/>
+<text x="357.333" y="235" font-size="11" fill="#5b6870">m26</text>
+<line x1="646.667" y1="308.667" x2="646.667" y2="169.333" stroke="#1f5fa8" stroke-width="1.98181" stroke-linecap="round"/>
+<text x="650.667" y="235" font-size="11" fill="#5b6870">m27</text>
+<line x1="353.333" y1="308.667" x2="426.667" y2="147.333" stroke="#c0392b" stroke-width="2.42618" stroke-linecap="round"/>
+<text x="394" y="224" font-size="11" fill="#5b6870">m28</text>
+<line x1="646.667" y1="308.667" x2="573.333" y2="147.333" stroke="#c0392b" stroke-width="2.42618" stroke-linecap="round"/>
+<text x="614" y="224" font-size="11" fill="#5b6870">m29</text>
+<line x1="500" y1="308.667" x2="426.667" y2="147.333" stroke="#1f5fa8" stroke-width="3.35811" stroke-linecap="round"/>
+<text x="467.333" y="224" font-size="11" fill="#5b6870">m30</text>
+<line x1="500" y1="308.667" x2="573.333" y2="147.333" stroke="#1f5fa8" stroke-width="3.35811" stroke-linecap="round"/>
+<text x="540.667" y="224" font-size="11" fill="#5b6870">m31</text>
+<line x1="500" y1="308.667" x2="500" y2="140" stroke="#1f5fa8" stroke-width="2.69404" stroke-linecap="round"/>
+<text x="504" y="220.333" font-size="11" fill="#5b6870">m32</text>
+<path d="M60 308.667 L50 324.667 L70 324.667 Z" fill="#1b2328" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="60" cy="308.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="206.667" cy="308.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="353.333" cy="308.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<line x1="500" y1="356.667" x2="500" y2="316.667" stroke="#1b2328" stroke-width="2"/><path d="M500 326.667 L495 334.667 L505 334.667 Z" fill="#1b2328" transform="rotate(180 500 330.667)"/>
+<circle cx="500" cy="308.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="646.667" cy="308.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="793.333" cy="308.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<path d="M940 308.667 L930 324.667 L950 324.667 Z" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="940" cy="308.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="133.333" cy="264.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="206.667" cy="228" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="280" cy="198.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="353.333" cy="169.333" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="426.667" cy="147.333" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="500" cy="140" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="573.333" cy="147.333" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="646.667" cy="169.333" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="720" cy="198.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="793.333" cy="228" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<circle cx="866.667" cy="264.667" r="4" fill="#fff" stroke="#1b2328" stroke-width="1.5"/>
+<text x="60" y="386.667" font-size="13" fill="#5b6870">파랑 = 인장, 빨강 = 압축, 굵기 ∝ |N|, 노란 테두리 = 최초 파괴 부재</text>
+</svg>
