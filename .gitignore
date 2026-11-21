@@ -5,3 +5,7 @@ obj/
 *.layout
 # run output
 result.txt
+
+# truss_model build/run output
+truss_model/truss_model
+truss_model/*.exe
